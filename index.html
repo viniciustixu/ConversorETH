@@ -8,7 +8,11 @@
   <body>
     <h1>Olá</h1>
     <label for="valorDesejado">Valor desejado:</label>
-    <input type="number" id="valorDesejado" />
+    <input type="number" id="valorDesejado" autofocus />
+
+    <label for="valorAtualETH">Valor atual ETH:</label>
+    <input type="number" name="numberETH" id="valorAtualETH" />
+
     <button onclick="converter()">Converter e copiar</button>
 
     <div id="resultado">Preço a ser listado</div>
